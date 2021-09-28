@@ -12,20 +12,3 @@ Content-Type: application/json
 ### Listar todos os automoveis
 GET https://localhost:5001/api/automovel/list
 
-### Buscar um automovel pelo ID
-GET https://localhost:5001/api/automovel/getbyid/3
-
-### deletar um automovel pelo nome
-DELETE https://localhost:5001/api/automovel/delete/Fiat
-
-###
-PUT  https://localhost:5001/api/automovel/update
-Content-Type: application/json
-
-{
-    "id" : 4,
-    "Marca" : "Fiat",
-    "Modelo" : "Uno 2021",
-    "Cor" : "preto",
-    "Combustivel" : "flex"
-}
